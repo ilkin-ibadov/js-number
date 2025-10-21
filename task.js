@@ -1,49 +1,15 @@
-// CUSTOMER DATA
-const orders = [
-  { id: 1, customer: "Alice", items: ["laptop", "mouse"], total: 1200, status: "pending" },
-  { id: 2, customer: "Bob", items: ["phone"], total: 800, status: "completed" },
-  { id: 3, customer: "Charlie", items: ["keyboard", "mouse"], total: 150, status: "pending" },
-  { id: 4, customer: "David", items: ["monitor"], total: 300, status: "completed" },
-  { id: 5, customer: "Eve", items: ["tablet"], total: 400, status: "pending" },
-];
-
-// TASKS
-
-// BASIC OPERATIONS
-// 1. Add a new order:
-
-// 2. The order with ID 3 got canceled.
-// Use splice() or filter() to remove it from the list.
-
-// 3. Display the total number of orders.
-
-
-// SEARCHING AND FILTERING
-// 1. Find the first completed order.
-
-// 2. Create a new array "pendingOrders" that contains only orders with status "pending".
-
-// 3. Create a list of customers who bought a "mouse".
-// → Use filter() + includes() on items.
-
-
-// CALCULATIONS
-// 1. Get the total sales amount (sum of all totals).
-
-// 2. Check if all orders are completed.
-
-
-// TRANSFORMING AND REPORTING
-// 1. Create a new array "orderSummaries" that looks like:
-// ["Alice ordered 2 items ($1200)", "Bob ordered 1 item ($800)", ...]
-// → Use map()
-
-// 2. Sort all orders by total amount (highest to lowest).
-
-// 3. Create a string of all customer names separated by commas.
-
-
-// REAL LIFE USE
-// 1. You received a refund for all orders under $200.
-// Use filter() to find them and forEach() to log:
-// "Refund issued for <customer>".
+// 1. Take a name and make it greet like "Hello, JOHN!"
+// 2. Get the length of the string "JavaScript"
+// 3. Check if "apple" exists in "I like apple pie"
+// 4. Find where the word "code" starts in "Learn to code every day"
+// 5. Replace "bad" with "good" in "That is a bad idea"
+// 6. Remove extra spaces from "   JavaScript   "
+// 7. Reverse the string "hello"
+// 8. Convert "hello world" → "Hello World"
+// 9. Convert "john.doe@gmail.com" → "j***@gmail.com"
+// 10. Count how many times 'a' appears in "banana"
+// 11. From "https://www.google.com" get "google.com"
+// 12. Check if "JavaScript" starts with "Java" and ends with "Script"
+// 13. Count how many times each word appears in "I love JavaScript because JavaScript is awesome"
+// 14. Return the longest word in a sentence
+// 15. Convert "Learn JavaScript in 2025!" → "learn-javascript-in-2025"
