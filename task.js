@@ -1,15 +1,19 @@
-// 1. Take a name and make it greet like "Hello, JOHN!"
-// 2. Get the length of the string "JavaScript"
-// 3. Check if "apple" exists in "I like apple pie"
-// 4. Find where the word "code" starts in "Learn to code every day"
-// 5. Replace "bad" with "good" in "That is a bad idea"
-// 6. Remove extra spaces from "   JavaScript   "
-// 7. Reverse the string "hello"
-// 8. Convert "hello world" → "Hello World"
-// 9. Convert "john.doe@gmail.com" → "j***@gmail.com"
-// 10. Count how many times 'a' appears in "banana"
-// 11. From "https://www.google.com" get "google.com"
-// 12. Check if "JavaScript" starts with "Java" and ends with "Script"
-// 13. Count how many times each word appears in "I love JavaScript because JavaScript is awesome"
-// 14. Return the longest word in a sentence
-// 15. Convert "Learn JavaScript in 2025!" → "learn-javascript-in-2025"
+// 1. Create a variable with a decimal number and round it to the nearest integer using a suitable method.
+
+// 2. Generate a random number between 0 and 10 (inclusive).
+
+// 3. Convert a string "42.9" into a number and round it down.
+
+// 4. Convert a string "99.5" into a number and round it up.
+
+// 5. Format a number (like 1234.56789) to have only 2 decimal places.
+
+// 6. Generate a random integer between 1 and 100.
+
+// 7. Convert a floating number 12.34567 to a string with 3 digits after the decimal point.
+
+// 8. Parse the string "100px" and get only the numeric part as a number.
+
+// 9. Check if "Hello" can be converted to a valid number.
+
+// 10. Generate 5 random numbers between 0 and 1 and store them in an array.

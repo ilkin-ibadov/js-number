@@ -1,59 +1,40 @@
-let a = "   Hello World!   "
-console.log(a.length) // get string's character count
+// Number methods
 
-// get character at given index
-console.log(a.at(0)) 
-console.log(a[0])
+let num = 10.345
 
-// merge strings together
-let text1 = "Hello";
-let text2 = "World";
-let text3 = text1.concat(" ", text2);
-// console.log(text1 + " " + text2)
+// rounds numbers after . to given degree
+let roundedNum = num.toFixed(2)
 
-console.log(a.trim()) // trim() removes whitespace from both ends of string
-// trimStart() removes whitespace from beginning of string
-// trimEnd() removes whitespace from end of string
+// Converts number to string
+let string = num.toString()
 
-let paddedStringStart = text1.padStart(text1.length + 3, " ") // adds given character to the beginning of string given times
-let paddedStringEnd = text1.padEnd(text1.length + 3, " ") // adds given character to the end of string given times
+// Converts string to number
+let intNumber = parseInt(string)
+let floatNumber = parseFloat(string)
 
-console.log(text2.repeat(3)) // repeats string given times
+// rounds number to integer
+console.log(Math.round(num))
 
-let text = "Apple, Banana, Kiwi";
-let part = text.slice(-12, -6);
-// slice(startIndex, endIndex)
-// endIndex is optional, if not present, slice() returns string value after given index
-// if indexes are negative, we count indexes from right
+// Rounds number to next int
+console.log(Math.ceil(num))
 
-// substring() exactly same as slice, only difference is it does not accept negative indexes
+// Rounds number to previous int
+console.log(Math.floor(num))
 
-let txtToUppercase = text1.toUpperCase() // string to uppercase
+const colors = ["red", "blue", "green", "yellow", "black"]
 
-let txtToLowercase = txtToUppercase.toLowerCase() // string to lowercase
+const randomColor = colors[Math.floor(Math.random() * colors.length)]
 
-let text5 = "Please visit Microsoft!";
-let newText = text5.replace("Microsoft", "W3Schools"); // replaces given text with second parameter
-// we can use "" as second parameter to remove a word
-// replaceAll() replaces all matching words with given word
+console.log(randomColor)
 
-let sentenceToWords = text5.split(" ") // splits sentence to words, returns array
-let wordToCharacters = text1.split("")
 
-console.log(wordToCharacters)
+// Object methods
+const person = {
+    name: "Ilkin",
+    lastname: "Ibadov",
+    greet: function () {
+        console.log("Hello" + " " + this.name + " " + this.lastname)
+    }
+}
 
-console.log(text5.includes("visit")) // returns true if string contains given word, else returns false
-
-console.log(text5.startsWith("Please")) // returns true if string starts with given word, else returns false
-// endsWith() method returns true if string ends with given word, else returns false
-
-// indexOf() returns starting index of first matching word, lastIndexOf() returns starting index of last matching word
-
-// Both indexOf() and lastIndexOf() accepts optional second parameter, if given starts searching from that index
-
-// Both indexOf() and lastIndexOf() returns -1 if no match is found
-
-console.log("indexOf: ", text5.indexOf('microsoft')) // returns false, does not accept regular expression
-
-console.log("search: ", text5.search(/microsoft/i)) // returns true, can work with both lowercase and uppercase
-
+person.greet()
